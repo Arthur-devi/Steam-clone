@@ -1,0 +1,79 @@
+@charset "UTF-8";
+@font-face {
+    font-family: motivaSans;
+    src: url(font/MotivaSansThin.ttf);
+}
+
+
+*{
+    font-family: motivaSans;
+    font-size: 14px;
+}
+
+body{
+    background-color: #1B2838;
+}
+
+
+header{
+    background-color: #231F20;
+    margin: -8px -8px 0px -8px;
+}
+
+
+#logo{
+    padding: 10px;
+}
+
+#logo>img{
+    margin-left: 10em;
+}
+
+.conteudoInicio{
+    padding: 1px;
+    margin: 1px;
+}
+
+
+button{
+    display: inline-block;
+    padding: 6px;
+    background-color: #5A7D10;
+    color: white;
+    margin-top: -100px;
+}
+
+
+.conteudoInicio > .um{
+    display: inline-block;
+    list-style: none;
+    columns: 4;
+    margin: auto;
+}
+
+.conteudoInicio > button{
+    font-size: 11px;
+}
+
+a{
+    color: #A4A5A6;
+    text-decoration: none;
+}
+
+
+.um > a > .linhaum{
+    margin-top: auto;
+}
+
+.dois > a > .linhadois{
+    font-size: 11px;
+    
+}
+
+.conteudoInicio > .dois{
+    display: inline-block;
+    columns: 2;
+    list-style: none;
+}
+
+
