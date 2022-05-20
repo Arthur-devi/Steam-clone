@@ -14,6 +14,21 @@ body{
     background-color: #1B2838;
 }
 
+nav > button{
+    display: inline-block;
+    margin-left: 70em;
+}
+
+
+nav > .dois{
+    display: inline-block;
+    columns: 2;
+    list-style: none;
+}
+
+
+
+
 
 header{
     background-color: #231F20;
@@ -21,17 +36,15 @@ header{
 }
 
 
-#logo{
-    padding: 10px;
-}
-
 #logo>img{
-    margin-left: 10em;
+    margin-left: 20em;
+    height: 70px;
 }
 
 .conteudoInicio{
-    padding: 1px;
-    margin: 1px;
+    display: inline-block;
+    padding: 6px;
+    margin-left: 30em;
 }
 
 
@@ -46,9 +59,8 @@ button{
 
 .conteudoInicio > .um{
     display: inline-block;
-    list-style: none;
-    columns: 4;
-    margin: auto;
+    list-style-type: none;
+
 }
 
 .conteudoInicio > button{
@@ -60,20 +72,15 @@ a{
     text-decoration: none;
 }
 
-
-.um > a > .linhaum{
-    margin-top: auto;
-}
-
 .dois > a > .linhadois{
     font-size: 11px;
-    
+    display: inline-block;
 }
 
-.conteudoInicio > .dois{
+
+.um > a > .linhaum{
+    margin-left: 30px;
     display: inline-block;
-    columns: 2;
-    list-style: none;
 }
 
 
