@@ -185,13 +185,27 @@ main{
     position: relative;
 }
 
+.comeco > .banner{
+    position: relative;
+    display: inline-block;
+    top: 5em;
+    height: 180px;
+    box-shadow: 1px 1px 15px black;
+}
+
+
+.banner:hover{
+    box-shadow: 1px 1px 15px #62B7E9;
+}
+
+
 .comeco > .tituloJogo{
     font-size:x-large;
     display: inline-block;
     color: white;
     position: relative;
-    right: 12em;
-    bottom: 11em;
+    right: 6em;
+    bottom: 18em;
 }
 
 
@@ -201,9 +215,26 @@ main{
 }
 
 
-.navegacao > .lista{
+.navegacao > .cartas{
+    height: 125px;
+    position: relative;
+    right: 18em;
+    bottom: 2em;
+}
 
+
+.navegacao > .lista{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #C6D4DF;
+    line-height: 25px;
     list-style-type: none;
     position: relative;
-    right: 20em;
+    right: 21em;
+    bottom: 3em;
+}
+
+.lista > a{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#62B7E9;
+    text-shadow: 1px 1px 3px #62b8e98a;
 }
