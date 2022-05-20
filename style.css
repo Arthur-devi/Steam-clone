@@ -12,6 +12,13 @@
 
 body{
     background-color: #1B2838;
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 50vh;
+
+    background-attachment: scroll;
 }
 
 nav > button{
@@ -36,7 +43,8 @@ header{
 }
 
 
-#logo>img{
+
+#logo> a> .imagem{
     margin-left: 20em;
     height: 70px;
 }
@@ -44,7 +52,8 @@ header{
 .conteudoInicio{
     display: inline-block;
     padding: 6px;
-    margin-left: 30em;
+    position:relative;
+    bottom: 30px;
 }
 
 
@@ -54,6 +63,11 @@ button{
     background-color: #5A7D10;
     color: white;
     margin-top: -100px;
+}
+
+
+button:hover{
+    color: #F0FFFF;
 }
 
 
@@ -75,12 +89,71 @@ a{
 .dois > a > .linhadois{
     font-size: 11px;
     display: inline-block;
+    position:relative;
+    right:40px;
+    margin-left: 10px;
+}
+
+a >.linhadois:hover{
+    color: #F0FFFF;
 }
 
 
 .um > a > .linhaum{
-    margin-left: 30px;
+    margin-left: 20px;
     display: inline-block;
 }
+
+
+a > .linhaum:hover{
+    color: #F0FFFF;
+}
+
+
+
+
+/*main nav*/
+
+.conteudoMain{
+    margin-top: 30px;
+
+}
+
+.conteudoMain > .tres{
+    padding:3px;
+    columns:8;
+    list-style-type: none;
+    background-image: linear-gradient(to right, #449acf81 70%, #0452827a);
+    width: 120vh;
+    margin: auto;
+    border-radius: 1px;
+    box-shadow: 1px 1px 10px #449acf81;
+}
+
+
+.conteudoMain > .tres > a> .linhatres{
+    color: #f0ffff93;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #449acf81;
+    text-align: center;
+
+}
+
+.conteudoMain > .tres > .procura{
+    display: inline-block;
+    width: 200px;
+    background-color: #3162828e;
+}
+
+.conteudoMain > .tres > .botaoMain{
+    position: relative;
+    display: inline-block;
+    width: 1px;
+}
+
+
+/*Principal*/
+
+
 
 
