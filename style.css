@@ -17,13 +17,11 @@ body{
     background-repeat: no-repeat;
     background-position: center top;
     height: 50vh;
-
-    background-attachment: scroll;
 }
 
 nav > button{
     display: inline-block;
-    margin-left: 70em;
+    margin-left: 60em;
 }
 
 
@@ -40,16 +38,18 @@ nav > .dois{
 header{
     background-color: #231F20;
     margin: -8px -8px 0px -8px;
+    min-height: 150px;
 }
 
 
 
 #logo> a> .imagem{
-    margin-left: 20em;
+    margin-left: 10em;
     height: 70px;
 }
 
 .conteudoInicio{
+    margin: auto;
     display: inline-block;
     padding: 6px;
     position:relative;
@@ -116,7 +116,7 @@ a > .linhaum:hover{
 
 .conteudoMain{
     margin-top: 30px;
-
+    min-height: 150px;
 }
 
 .conteudoMain > .tres{
@@ -125,6 +125,7 @@ a > .linhaum:hover{
     list-style-type: none;
     background-image: linear-gradient(to right, #449acf81 70%, #0452827a);
     width: 120vh;
+    max-height: 120vh;
     margin: auto;
     border-radius: 1px;
     box-shadow: 1px 1px 10px #449acf81;
@@ -136,24 +137,73 @@ a > .linhaum:hover{
     font-weight: bold;
     text-shadow: 1px 1px 1px #449acf81;
     text-align: center;
-
 }
 
 .conteudoMain > .tres > .procura{
-    display: inline-block;
     width: 200px;
     background-color: #3162828e;
 }
 
-.conteudoMain > .tres > .botaoMain{
-    position: relative;
-    display: inline-block;
-    width: 1px;
-}
 
 
 /*Principal*/
 
+main{
+   padding-bottom: 150px;
+}
 
 
+.mainDois{
+    width: 30em;
+    padding: 10px;
+    margin: auto 80vh auto auto;
+}
 
+
+.mainDois > h1{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+.comeco{
+    display: inline-block;
+    position: absolute;
+}
+
+.comeco > .elden{
+    display: inline-block;
+    box-shadow: 1px 1px 5px black;
+    height: 300px;
+}
+
+
+.comeco > .imagemDois{
+    display: inline-block;
+    box-shadow: 1px 1px 8px black;
+    right: 10px;
+    width: 300px;
+    position: relative;
+}
+
+.comeco > .tituloJogo{
+    font-size:x-large;
+    display: inline-block;
+    color: white;
+    position: relative;
+    right: 12em;
+    bottom: 11em;
+}
+
+
+.navegacao{
+    display: inline-block;
+    position: absolute;
+}
+
+
+.navegacao > .lista{
+
+    list-style-type: none;
+    position: relative;
+    right: 20em;
+}
